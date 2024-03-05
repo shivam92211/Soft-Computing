@@ -21,7 +21,7 @@ plot_tools.plot_pattern_list(pattern_list)
 
 # Check the similarity between the random patterns and the checkerboard
 overlap_matrix = pattern_tools.compute_overlap_matrix(pattern_list)
-plot_tools.plot_overlap_matrix(overlap_matrix)
+#plot_tools.plot_overlap_matrix(overlap_matrix)
 
 # Let the hopfield network "learn" the patterns.
 # Note: They are not stored explicitly, but only network weights are updated.

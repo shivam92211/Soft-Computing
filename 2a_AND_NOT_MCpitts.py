@@ -44,3 +44,21 @@ for i in range(0, num_ip):
         ele= 0
         Y.append(ele) 
 print("Y= ",Y)
+
+
+
+# Enter the number of inputs : 4
+# For the  4  inputs calculate the net input using yin = x1w1 + x2w2 
+# x1 = 0
+# x2 = 0
+# x1 = 0
+# x2 = 1
+# x1 = 1
+# x2 = 0
+# x1 = 1
+# x2 = 1
+# x1 =  [0, 0, 1, 1]
+# x2 =  [0, 1, 0, 1]
+# Yin =  [0, 1, 1, 2]
+# After assuming one weight as excitatory and the other as inhibitory Yin =  [0, -1, 1, 0]
+# Y=  [0, 0, 1, 0]

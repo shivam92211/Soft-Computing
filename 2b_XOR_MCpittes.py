@@ -79,3 +79,35 @@ print(v1)
 print(v2) 
 print("Threshold value") 
 print(theta)
+
+
+
+
+
+# Enter weights
+# Weight w11=1
+# weight w12=-1
+# Weight w21=-1
+# weight w22=1
+# weight v1=1
+# weight v2=1
+# Enter Threshold Value
+# theta=1
+# z1 [ 0 -1  1  0]
+# z2 [ 0  1 -1  0]
+# yin [0. 1. 1. 0.]
+# Output of Net
+# y [0 1 1 0]
+# z [0 1 1 0]
+# McCulloch-Pitts Net for XOR function
+# Weights of Neuron Z1
+# 1
+# -1
+# weights of Neuron Z2
+# -1
+# 1
+# weights of Neuron Y
+# 1
+# 1
+# Threshold value
+# 1

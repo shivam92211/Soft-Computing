@@ -31,8 +31,22 @@ for i in range(0,n):
 
 z = round(sum(y))
 
-print(round(sum(y)))
+print(round(sum(y),3))
 
 
 
 print(sigmoid(z))
+
+
+# enter the no of element:3
+# your inputs 3
+# enter x values: 0.3
+# enter x values: 0.5
+# enter x values: 0.6
+# [0.3, 0.5, 0.6]
+# enter weight values: 0.2
+# enter weight values: 0.1
+# enter weight values: -0.3
+# [0.2, 0.1, -0.3]
+# -0.07
+# 2.0
