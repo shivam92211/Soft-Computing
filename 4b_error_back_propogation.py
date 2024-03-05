@@ -12,7 +12,6 @@ c = float(input("Enter learning coefficient: "))
 
 n1 = float(w10 * a0 + b10)
 a1 = math.tanh(n1)
-
 n2 = float(w20 * a1 + b20)
 a2 = math.tanh(n2)
 
